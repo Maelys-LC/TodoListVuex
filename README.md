@@ -1,6 +1,7 @@
 TODO LIST VUE / FULLSTACK PROJECT
 
 ![](https://img.shields.io/badge/made%20with-VUEX-yellow?logo=vue.js)
+![](https://img.shields.io/badge/VueRouter-yellow?logo=vue.js)
 ![](https://img.shields.io/badge/VUE-yellow?logo=vue.js)
 ![](https://img.shields.io/badge/-Axios-yellow)
 ![](https://img.shields.io/badge/-Mongoose-blue?logo=mongodb)
@@ -18,12 +19,13 @@ TODO LIST VUE / FULLSTACK PROJECT
   <img src="https://user-images.githubusercontent.com/61437084/91728290-2e777a00-eba3-11ea-8bab-01ad07960eb0.png" height="50">
 </p>
 
-VUEX, VUE.JS, MONGOOSE, AXIOS, EXPRESS, NODE.JS JAVASCRIPT, BOOTSTRAP, CSS
+VUEX, VUE ROUTER, VUE.JS, MONGOOSE, AXIOS, EXPRESS, NODE.JS JAVASCRIPT, BOOTSTRAP, CSS
 
 Mongo DB, Visual Studio Code
 
 # What I did
 - use components,
+- create routes using Vue Router
 - store data in a Vuex store,
 - use mutations, actions and getters,
 - dispatch actions from a component to the store,
@@ -34,7 +36,7 @@ Mongo DB, Visual Studio Code
 
 
 # About this project
-I was asked to create a todo list using Vue.js, Vuex, Mongo DB, Mongoose and Axios. The todo list should allow the user to add new tasks, to check and uncheck the tasks and to delete them. The user can also filter the tasks by their author.
+I was asked to create a todo list using Vue.js, Vuex, Vue Router, Mongo DB, Mongoose and Axios. The todo list should allow the user to add new tasks, to check and uncheck the tasks and to delete them. The user can also filter the tasks by their author.
 
 # The website
 I have choosen to create an easy to use website with a simple design.
