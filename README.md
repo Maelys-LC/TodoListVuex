@@ -2,9 +2,9 @@ TODO LIST VUE / FULLSTACK PROJECT
 
 ![](https://img.shields.io/badge/made%20with-VUEX-yellow?logo=vue.js)
 ![](https://img.shields.io/badge/VUE-yellow?logo=vue.js)
-![](https://img.shields.io/badge/-Mongoose-yellow?logo=mongodb)
-![](https://img.shields.io/badge/-MongoDB-yellow?logo=mongodb)
 ![](https://img.shields.io/badge/-Axios-yellow)
+![](https://img.shields.io/badge/-Mongoose-blue?logo=mongodb)
+![](https://img.shields.io/badge/-MongoDB-blue?logo=mongodb)
 ![](https://img.shields.io/badge/-Express-blue?logo=javascript)
 ![](https://img.shields.io/badge/-Node.JS-blue?logo=node.js)
 
