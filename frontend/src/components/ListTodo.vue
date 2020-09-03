@@ -2,8 +2,7 @@
     <div>
         <b-form id="form">        
             <b-input-group prepend="Filter by author" class="input">
-                <b-input  type="text" v-model="author" class="blank"></b-input>
-                <b-button @click="filterByAuthor" variant="outline-dark">Filter</b-button>                                 
+                <b-input  type="text" v-model="author" class="blank"></b-input>                                              
             </b-input-group>
         </b-form>
         <ul>
@@ -25,41 +24,31 @@
         props: ['whatToDisplay'],
         data: function() {
             return {
-                list: [],
-                author: "",
-                status: ""
+                author: ""
             }
+        },
+        computed: {
+            list: {
+                get: function() {
+                    let list = this.$store.getters.todoFiltered(this.whatToDisplay);
+                    if (this.author) {
+                        return list.filter(element => this.author.toLowerCase() === element.author.toLowerCase());
+                    } else {
+                    return list
+                    }                
+                },
+                set: function(value) {
+                    if (this.whatToDisplay === "all") {
+                        this.$store.dispatch("UPDATE", value);
+                    }
+                }
+            }           
         },
         components: {
             SingleTodo,
             draggable      
-        },
-        beforeMount() {
-            this.filterTodo();
-        },
-        methods: {            
-          filterTodo: function() {
-              if (this.whatToDisplay === "done") {
-                  this.status = this.$store.getters.todoDone
-                  this.list = this.$store.getters.todoDone
-              } else if (this.whatToDisplay === "todo") {
-                  this.status = this.$store.getters.todoNotDone 
-                  this.list = this.$store.getters.todoNotDone
-              } else if (this.whatToDisplay === "all") {
-                  this.status = this.$store.state.todo
-                  this.list = this.$store.state.todo
-              }
-            },
-            filterByAuthor: function() {
-                if (this.author) {
-                    this.list = this.status
-                    this.list = this.list.filter(element => element.author.toLowerCase() === this.author.toLowerCase());
-                    console.log(this.list);
-                    console.log(this.author)
-                    this.author = "";
-                }                
-            }            
         }   
+        
     }   
 </script> 
 

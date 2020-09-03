@@ -28,6 +28,9 @@ export default new Vuex.Store ({
                     state.todo.splice(index, 1);
                 }
             }
+        },
+        UPDATE(state, value) {
+            state.todo = value;
         }
     },
     actions: {
@@ -41,14 +44,22 @@ export default new Vuex.Store ({
         },
         DELETE(context, id) {
             context.commit("DELETE", id)
+        },
+        UPDATE(context, value) {
+            context.commit("UPDATE", value)
         }
     },
     getters: {
-        todoDone(state) {
-          return state.todo.filter(element => !element.todo)
-        },
-        todoNotDone(state) {
-            return state.todo.filter(element => element.todo)
-        }
-      }
+        todoFiltered(state) {
+            return function(whatToDisplay) {
+                if (whatToDisplay === "done") {
+                    return state.todo.filter(element => !element.todo)
+                } else if (whatToDisplay === "todo") {
+                    return state.todo.filter(element => element.todo)
+                } else if (whatToDisplay === "all") {
+                    return state.todo;
+                }
+            }
+        }      
+    }
 })
