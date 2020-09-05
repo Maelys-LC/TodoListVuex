@@ -1,4 +1,4 @@
-TODO LIST VUE / FULLSTACK PROJECT
+TODO LIST VUEX / FULLSTACK PROJECT
 
 ![](https://img.shields.io/badge/made%20with-VUEX-yellow?logo=vue.js)
 ![](https://img.shields.io/badge/VueRouter-yellow?logo=vue.js)
