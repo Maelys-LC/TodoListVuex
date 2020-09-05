@@ -21,10 +21,10 @@ TODO LIST VUE / FULLSTACK PROJECT
 
 VUEX, VUE ROUTER, VUE.JS, MONGOOSE, AXIOS, EXPRESS, NODE.JS JAVASCRIPT, BOOTSTRAP, CSS
 
-Mongo DB, Visual Studio Code
+Mongo DB, Visual Studio Code, [Vue-draggable](https://github.com/SortableJS/Vue.Draggable)
 
 # What I did
-- use components,
+- create and use components,
 - create routes using Vue Router
 - store data in a Vuex store,
 - use mutations, actions and getters,
@@ -33,6 +33,7 @@ Mongo DB, Visual Studio Code
 - send post, get, put and delete requests from the front to the api using axios
 - pass data to children component as a prop,
 - $emit event from a child component to trigger a function in the grandparent component,
+- use [Vue-draggable](https://github.com/SortableJS/Vue.Draggable)
 
 
 # About this project
@@ -41,26 +42,14 @@ I was asked to create a todo list using Vue.js, Vuex, Vue Router, Mongo DB, Mong
 # The website
 I have choosen to create an easy to use website with a simple design.
 
-The Home page explains the differents possibilities to the user:
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/61437084/91723728-8494ef00-eb9c-11ea-9aba-2064b42ee54f.png" height="400">
+  <img src="https://user-images.githubusercontent.com/61437084/92311510-e4820000-efb7-11ea-8fd6-981da47cd000.gif" height="400">
 </p>
 
-The New page allows the user to add a new task and the author's name with a form:
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61437084/91723734-852d8580-eb9c-11ea-83b6-c8c37ba73f39.png" height="400">
-</p>
-
-The List page displays all the tasks. The differents tasks are checkable, uncheckable, deletable and draggable, with a hover effect. They can be filterd by their author's name.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61437084/91723731-8494ef00-eb9c-11ea-81e1-f4d711301cfb.png" height="400">
-</p>
-
-The Done and Todo pages respectively display the checked and unchecked tasks : 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61437084/91723727-8363c200-eb9c-11ea-8e20-485b7859da82.png" height="400">
-  <img src="https://user-images.githubusercontent.com/61437084/91723725-82cb2b80-eb9c-11ea-8256-949c0608d5d8.png" height="400">
-</p>
+The Home page explains the differents possibilities to the user.
+The New page allows the user to add a new task and the author's name with a form.
+The List page displays all the tasks. The differents tasks are checkable, uncheckable, deletable and draggable, with a hover effect. They can be filterd by author.
+The Done and Todo pages respectively display the checked and unchecked tasks.
 
 
 ## Project setup
