@@ -47,8 +47,11 @@ I have choosen to create an easy to use website with a simple design.
 </p>
 
 The Home page explains the differents possibilities to the user.
+
 The New page allows the user to add a new task and the author's name with a form.
+
 The List page displays all the tasks. The differents tasks are checkable, uncheckable, deletable and draggable, with a hover effect. They can be filterd by author.
+
 The Done and Todo pages respectively display the checked and unchecked tasks.
 
 
