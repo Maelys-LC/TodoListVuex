@@ -46,11 +46,11 @@ I have choosen to create an easy to use website with a simple design.
   <img src="https://user-images.githubusercontent.com/61437084/92311510-e4820000-efb7-11ea-8fd6-981da47cd000.gif" height="400">
 </p>
 
-The Home page explains the differents possibilities to the user.
+The Home page explains the different possibilities to the user.
 
 The New page allows the user to add a new task and the author's name with a form.
 
-The List page displays all the tasks. The differents tasks are checkable, uncheckable, deletable and draggable, with a hover effect. They can be filterd by author.
+The List page displays all the tasks. The different tasks are checkable, uncheckable, deletable and draggable, with a hover effect. They can be filterd by author.
 
 The Done and Todo pages respectively display the checked and unchecked tasks.
 
