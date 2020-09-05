@@ -1,7 +1,7 @@
 <template>
     <div>
         <hr class="my-4">
-        <p>An easy to use todo list, allowing you to create new tasks, to check and uncheck them, and to delete them.</p>
+        <p>An easy to use todo list, allowing you to create new tasks, to check and uncheck them, to delete them, and to filter them by author.</p>
         <hr class="my-4">
         <img src="../assets/gif.gif" alt="gif pompompurin">
     </div>

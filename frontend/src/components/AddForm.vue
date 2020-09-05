@@ -12,7 +12,7 @@
             </b-input-group>
             <b-button variant="outline-dark" @click="addTask"><b-icon icon="file-plus"></b-icon>Add</b-button> 
         </b-form>
-        <img src="../assets/pompompurin.gif" alt="gif pompompurin">
+        <!-- <img src="../assets/pompompurin.gif" alt="gif pompompurin"> -->
     </div>    
 </template>
 
